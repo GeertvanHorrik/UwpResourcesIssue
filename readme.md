@@ -36,10 +36,10 @@ we use for all our projects.
 
 1) Simply start the repro, and the text should show *no shadow* (so the bug is present)
 
-![](images\1_repro.png)
+![](images/1_repro.png)
 
 2) Comment or remove the package reference to `<PackageReference Include="SourceLink.Copy.PdbFiles" Version="2.8.3" PrivateAssets="All" />`
 
 3) Run the repro again, text now has shadow
 
-![](images\2_fixed.png)
+![](images/2_fixed.png)
