@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Background="White">
+    <!--Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">-->
+
+    <Grid>
+        <toolkit:DropShadowPanel BlurRadius="10" ShadowOpacity="1" OffsetX="0" OffsetY="15" Color="Black"
+                                 HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="THIS TEXT SHOULD HAVE SHADOW" Foreground="Black" />
+        </toolkit:DropShadowPanel>
+    </Grid>
+</Page>
